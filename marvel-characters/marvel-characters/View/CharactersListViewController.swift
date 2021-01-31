@@ -129,6 +129,7 @@ extension CharactersListViewController: UISearchBarDelegate {
             self.isSearchBarList = false
             getCharactersList()
         }
+        self.view.endEditing(true)
     }
     
     private func setupSearchBarKeyboardButton() {
